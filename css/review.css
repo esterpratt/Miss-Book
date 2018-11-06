@@ -1,0 +1,112 @@
+/* Add review */
+
+.selected {
+    color: yellow;
+}
+
+.review-add-container {
+    margin: 20px;
+}
+
+.review-add {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.review-add form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-add form input,  .review-add form textarea {
+    font-family: inherit;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.review-add form textarea {
+    width: 30%;
+}
+
+.star {
+    transition: .3s;
+    font-size: 1.5rem;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+/* Reviews */
+
+.reviews-container {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(219, 219, 219);
+    align-self: flex-start;
+}
+
+.reviews-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-header > p {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.review-container {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+.review-header {
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.review-content {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    max-height: fit-content;
+}
+
+.reviews-container button, .review-add-container button {
+    font-family: inherit;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: rgb(121, 13, 13);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5000px;
+    transition: .3s;
+}
+
+.reviews-container button:hover, .review-add-container button:hover {
+    background-color: rgb(252, 204, 204);
+    color: rgb(49, 49, 49);
+}
+
+.review-header button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+}
+
+.review-header button:hover {
+    background-color: rgb(175, 151, 151);
+    color: rgb(37, 37, 37);
+}

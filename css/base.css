@@ -1,0 +1,14 @@
+/* BASE */
+
+html, body, ul, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: cursive;
+}
+
+ul {
+    list-style: none;
+}

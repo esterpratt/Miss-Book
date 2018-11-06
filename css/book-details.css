@@ -1,0 +1,113 @@
+/* Book Details */
+
+.book-details-comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+    margin: 20px 20px 0 20px;
+}
+
+.book-details-container {
+    padding: 20px;
+    margin-top: 25px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+}
+
+.book-details {
+    font-size: 1rem;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-details > * {
+    margin-bottom: 0.5rem;
+}
+
+.btns-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-book-link, .prev-book-link {
+    text-decoration: none;
+}
+
+.btns-container button, .next-book-link, .prev-book-link {
+    font-size: 0.9rem;
+    /* margin-bottom: 10px; */
+    padding: 5px 10px;
+    background-color: rgb(121, 13, 13);
+    color: white;
+}
+
+.btns-container button, .next-book-link, .prev-book-link, .book-description button {
+    font-family: inherit;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5000px;
+    transition: .3s;
+}
+
+.btns-container button:hover, .next-book-link:hover, .prev-book-link:hover {
+    background-color: rgb(252, 204, 204);
+    color: rgb(49, 49, 49);
+}
+
+.book-details-container button {
+    background-color: rgb(136, 136, 136);
+    color: rgb(49, 49, 49);
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    display: inline
+}
+
+.book-details-container button:hover {
+    background-color: rgb(49, 49, 49);
+    color: rgb(221, 221, 221);
+}
+
+.book-description p {
+    display: inline;
+    font-size: 0.9rem;
+}
+
+.book-details-img {
+    width: 30%;
+    height: fit-content;
+}
+
+.book-details-img img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.on-sale {
+    padding: 0.3rem 4.4rem;
+    background-color: yellow;
+    position: absolute;
+    top: 2.75rem;
+    right: -2.75rem;
+    transform: rotate(45deg)
+}
+
+/* Price Classes */
+
+.expensive {
+    background-color: red;
+}
+
+.cheap {
+    background-color: green;
+}

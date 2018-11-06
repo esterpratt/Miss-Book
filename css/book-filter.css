@@ -1,0 +1,52 @@
+/* Book Filter */
+
+.filter {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(223, 189, 139);
+}
+
+.filter input {
+    font-family: inherit;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 5px;
+}
+
+.filter > * {
+    margin-left: 15px;
+}
+
+.filter input {
+    width: 30px;
+}
+
+/* .name-filter {
+    margin-left: 20px;
+} */
+
+.name-filter input {
+    width: 20%;
+}
+
+.filter button {
+    font-family: inherit;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: rgb(114, 64, 64);
+    color: rgb(223, 223, 223);
+    border: 1px solid black;
+    border-radius: 5000px;
+    transition: .3s;
+}
+
+.filter button:hover {
+    background-color: rgb(182, 174, 174);
+    color: rgb(59, 58, 58);
+}
+
+.filter p {
+    margin-bottom: 5px;
+}

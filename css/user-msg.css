@@ -1,0 +1,59 @@
+.user-msg {
+    width: 300px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.9;
+    color: white;
+}
+
+.user-msg.success {
+    background-color: green;
+    
+}
+
+.user-msg.warning {
+    background-color: rgb(167, 84, 7);
+}
+
+.user-msg.failur {
+    background-color: red;
+}
+
+.user-msg button {
+    cursor: pointer;
+    padding: 3px 6px;
+    background-color: rgb(78, 0, 0);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.user-msg button:hover {
+    background-color: rgb(255, 198, 198);
+    color: rgb(48, 48, 48);
+}
+
+.user-msg p {
+    margin-bottom: 10px;
+}
+
+.book-link {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    transition: .3s;
+}
+
+.book-link:hover {
+    background-color: white;
+    color: rgb(87, 87, 87);
+}
